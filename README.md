@@ -10,8 +10,8 @@ a cli for vuepress whit theme
 # create
 npx emjio-cli init my-blog
 # oa
-npm install  -g
-reco-cli init my-blog
+npm install  -g emjio-cli
+emjio-cliinit my-blog
 
 # install
 cd my-blog
@@ -31,7 +31,7 @@ npm run build
 npx emjio-cli init my-blog
 #or
 yarn global add emjio-cli
-reco-cli init my-blog
+emjio-cli init my-blog
 
 # install
 cd my-blog
