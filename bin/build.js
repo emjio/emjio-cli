@@ -35,7 +35,7 @@ program.version('1.0.0', '-v, --version')
             ]).then((answers) => {
                 const spinner = ora('downloading...');
                 spinner.start();
-                download('direct:https://github.com/emjio/vuepress-theme-demo.git', dir, {clone: true}, (err) => {
+                download('direct:https://github.com/emjio/vuepress-theme-demo.git', answers.dir, {clone: true}, (err) => {
                     if(err){
                         spinner.fail();
                         console.log(symbols.error, chalk.red(err));
