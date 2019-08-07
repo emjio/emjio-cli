@@ -1,6 +1,6 @@
 {
   "name": "emjio-cli",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "一个快速生成博客的脚手架工具",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,5 @@
     "inquirer": "^6.5.0",
     "log-symbols": "^3.0.0"
   },
-  "devDependencies": {
-    
-  }
+  "devDependencies": {}
 }
